@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Personal Site</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Home page image and brief description -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Hi, I'm Noah Rim</h1>
+      <p>I am currently a student at the University of Maryland, Baltimore County with a planned major in Cybersecurity
+        and a minor in Mathematics.</p>
+      <button type="hero-text button" onclick="window.location.href='mailto:noahrim2752@gmail.com'">Contact Me</button>
+    </div>
+  </div>
+
+  <!-- Slider image to display projects -->
+  <div class="section1">
+    <h1 style="color:floralwhite;">PROJECTS</h1>
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide">
+          <img src="background.jpg">
+        </div>
+        <div class="slide">
+          <img src="background.jpg">
+        </div>
+        <div class="slide">
+          <img src="background.jpg">
+        </div>
+        <!-- Add more slides as needed -->
+      </div>
+      <button class="prev" onclick="moveSlider(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlider(1)">&#10095;</button>
+    </div>
+  </div>
+
+  <!-- About me section -->
+  <div class="section2">
+    <h1>ABOUT ME</h1>
+    <p>I am a passionate individual who is interested in learning about various careers in Information Technology. At
+      the beginning of the COVID-19 pandemic, I began to develop an interest in coding that soon sprouted into a major
+      curiousity towards computer science and information technologies. I am currently an undergraduate student at the University of Maryland, Baltimore County as a part of the class of 2028.
+    </p>
+  </div>
+
+  <!-- Contact section using table for image links -->
+  <div class="section3">
+    <h1>LINKS</h1>
+    <div class="imageLinks">
+      <table>
+        <tr>
+          <td>
+            <a href="https://www.linkedin.com/in/noah-rim-a8a128310/">
+              <img src="linkedin.jpg" alt="LinkedIn" style="width: 65px; height: 50px;">
+            </a>
+          </td>
+          <td>
+            <a href="https://www.instagram.com/noahr_i_m/">
+              <img src="instagram.png" alt="Instagram" style="width: 65px; height: 50px;">
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/NoahRim">
+              <img src="github.png" alt="GitHub" style="width: 65px; height: 50px;">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
